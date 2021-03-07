@@ -1,0 +1,17 @@
+{
+  "name": "dominnio",
+  "version": "1.0.0",
+  "description": "Veja se há um domínio bonito disponível para você.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "guuh",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "console-clear": "^1.1.1",
+    "inquirer": "^8.0.0"
+  }
+}
