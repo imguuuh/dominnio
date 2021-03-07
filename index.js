@@ -89,6 +89,13 @@ inquirer.prompt([
             console.log(chalk.green("Yupi!!! Há " + lista_contem.length + " TLD(s) disponíveis para esse nome :)"))
             console.log("")
             console.log(chalk.yellowBright(lista_contem.join(", ")));
+            console.log("")
+            console.log(chalk.green("Como ficariam:"))
+            console.log("")
+            for (var i in lista_contem) {
+                var tld = lista_contem[i];
+                console.log(chalk.yellowBright(name.replace(tld,"") + "." + tld));
+            }
             process.exit(0);
         }
 
