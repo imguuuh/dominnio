@@ -1,5 +1,5 @@
 # Dominnio
-✨ Checa se há um domínio bonito para você.
+✨ Checa se algum texto inserido se auto completa com algum TLD.
 
 ## Screenshots
 
